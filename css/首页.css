@@ -1,0 +1,324 @@
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1200px;
+  }
+}
+@media screen and (min-width:768px){
+    .dl{display:none;}
+    .logowz{display:none;}
+    .logo{display:none;}
+}
+@media screen and (max-width:768px) {
+  .tb{display: none;}
+  .dl{display:block;}
+  .logo{width: 68px;}
+  main .container .row .col-md-12 ul li{width:328px !important;}
+  .xx{border:none !important;}
+  .lh {padding-top: 10px !important;}
+  main .container .row3 .col-md-3{margin:0 auto !important;}
+  .row4{box-shadow: none !important;}
+  .yqlj{padding-left: 42px !important;}
+  .yqlj li{min-width: 96px !important;}
+  footer .col-md-5{padding-left:15px !important;}
+  footer img{float: left !important;}
+  .text-right{text-align:left !important;}
+  .navbar-nav{float: left !important;}
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+.dl{
+    float: right;
+}
+.dl a{
+    color:black;
+}
+.lv{
+    background: #29b078;
+}
+.logo{
+    float: left;
+    margin: 13px 5px 10px 0px;
+}
+.container-fluid{
+    padding:0;
+}
+.logowz{
+    height: 30px;
+    margin-left: 10px;
+    padding-left: 10px;
+    border-left:1px solid white;
+    float: left;
+    font-size:20px;
+    margin-top: 15px;
+    color:white;
+}
+.navbar-default .navbar-toggle{
+    border-color: transparent;
+        margin-top:18px;
+}
+body{
+    margin:0;
+    padding:0;
+    font-family: "微软雅黑";
+    overflow-x:hidden; 
+}
+header{
+    width: 100%;
+    color: #29b078;    
+}
+header .container .row{
+    margin-top: 5px;
+}
+header .container .row .col-md-12 p img{
+    float: right;
+    margin-left: 10px;
+}
+header .banner{
+  width: 100%;
+}
+.navbar-collapse{
+    background: #29b078;
+    border:0;
+}
+.navbar-default{
+    border:0;
+    margin:0;
+    -webkit-box-shadow:none;
+    background: #29b078;
+}
+.bg{
+    width: 100%;
+    background: #29b078;
+}
+.navbar-nav{
+    float: right ;
+}
+.navbar-default .navbar-nav>li>a {
+    color: white;
+     padding-top: 15px;
+     display: block;
+     height: 53px;
+}
+.navbar-default .navbar-nav>li>a:hover {
+    color: white;
+    background-color: transparent;
+}
+.bg a:hover{
+    border-bottom: 5px solid white;
+}
+
+
+header .carousel slide{
+    width: 80%;
+}
+main .container .row .col-md-12 ul{
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 0;
+    padding:0;
+}
+main .container .row .col-md-12 ul li{
+    width: 292px;
+    height: 200px;
+    list-style: none;
+    float: left;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0 34px;
+}
+.xx{
+    padding-top:40px ! important; 
+    padding-left: 60px ! important;
+    border-left:1px dashed #b2b2b2;
+    font-size: 15px;
+}
+.xx img{
+    float: left;
+}
+.xx .ys{
+    color: #26a26f !important;
+    font-weight: 800;
+}
+main .container .row .col-md-12 ul li img{
+    margin: 0 auto;
+}
+main .container .row .col-md-12 ul li h5{
+    text-align: center;
+    font-weight: 700;
+    font-size: 16px;
+}
+main .container .row .col-md-12 ul li p{
+    color: #b2b2b2;
+    text-align: left;
+}
+main .how{
+    margin-bottom: 20px;
+    text-align: center;
+    margin-top: 80px;
+    font-size: 20px;
+    font-weight: 600;
+}
+main .container .row .col-md-3{
+    position: relative;
+}
+main .container .row .col-md-3 .lh{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+main .container .row .col-md-3 .qq{
+    width: 50px;
+    height: 50px;
+    box-shadow: 0px 1px 0px #888888;
+    text-align: center;
+    line-height: 50px;
+    position: absolute;
+    left: 20px;
+    top: 0;  
+    border-radius: 50%;  
+    color:#26a26f;
+}
+main .container .row .col-md-3 p{
+    margin-top: 13px;
+    padding: 0 58px;
+    line-height: 24px
+}
+main .container .row2 img{
+    position: absolute;
+    right: 20px;
+    top: 22%;
+}
+main .container .row3 .col-md-3{
+    box-shadow: 0px 0px 1px #888888;
+    margin: 0 0.5%;
+    width: 23%;
+    min-width: 286px;
+    height: 305px;
+}
+main .container .row3 .col-md-3 p{
+    text-align: center;
+    padding:0;
+}
+main .container .row3 .col-md-3 h5{
+    text-align: center;
+    font-weight: 700;
+    line-height: 25px;
+}
+main .container .row3 .col-md-3 h6{
+    font-size: 14px;
+    padding:0 20px;
+    color: #b2b2b2;
+    line-height: 28px;
+}
+main .dd{
+    height: 15px;
+    margin: 20px 0;
+}
+main .dd ul{
+    width: 200px;
+    margin:0 auto;
+}
+main .dd ul li{
+    border-radius: 50%;
+    box-shadow: 1px 1px 1px #888888;
+    width: 15px;
+    height: 15px;
+    float: left;
+    list-style: none;
+    margin: 0 5px;
+}
+main .dd ul .active{
+    background: #29b078;
+}
+main .container .row4{
+    padding-top: 25px;
+    box-shadow: 0px 1px 1px #888888;
+    margin-bottom: 50px;
+}
+main .container .row4 ul{
+    margin-top: 0 !important; 
+    width: 100%;
+}
+main .container .row4 ul li{
+    line-height: 90px;
+    width: 20% !important;
+    height: 120px !important;
+    padding:0 !important;
+}
+main .container .row4 ul li img{
+    width: 50%;
+}
+main .yqlj{
+    width: 100%;
+}
+main .yqlj li{
+    width: 10%;
+    min-width: 81px;
+    float: left;
+    color: #b2b2b2;
+    margin-bottom:20px; 
+}
+main .yqlj li a{
+     color: #b2b2b2;
+}
+main .yqlj a:hover {
+    border-bottom: 1px solid #26a26f;
+    color: #b2b2b2;
+}
+.how a {
+    color: black;
+}
+footer{
+    width: 100%;
+    background: #26a26f;
+    color: white;
+}
+footer .row{
+    padding-bottom: 10px;
+    border-bottom: 1px solid #32c086;
+}
+
+footer p{
+    margin-top: 20px;
+}
+footer p span{
+    margin-left: 30px;
+}
+footer img{
+    float: right;
+    margin-top: 5px;
+}
+footer .col-md-4 p{
+    margin:0;
+    margin-top:20px;
+    margin-right: 5px;
+
+}
+footer .col-md-5{
+    padding: 0 78px;
+}
+footer .col-md-5 a{
+    color: white;
+}
+footer .col-md-5 a:hover {
+    border-bottom: 1px solid white;
+}
+footer .col-md-4{
+    padding-right: 20px;
+}
+footer .col-md-4 b{
+    padding-top: 80px; 
+}
